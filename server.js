@@ -14,7 +14,7 @@ const activeUsers = new Map();
 const monitoringIntervals = new Map();
 
 // Your bot token and API URL
-const BOT_TOKEN = process.env.BOT_TOKEN || "YOUR_BOT_TOKEN_HERE";
+const BOT_TOKEN = process.env.BOT_TOKEN || "8368251170:AAEelPG6m875saeq_mqq81c04cwUv05twyE";
 const BOT_API_URL = `https://api.telegram.org/bot${BOT_TOKEN}/`;
 
 // Store last known message count for each user
